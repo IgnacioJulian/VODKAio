@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Vodka.io</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <h1 class="ttle"><a class="navbar-brand" href="#">Vodka.io</a></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                        </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                        </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid" id="maincontainer">
+        <h2 class="ttle">Ultimos lanzamientos</h2>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/kraft.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/sup.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/valle.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+    <!-- seccion de  tops -->
+    <section class="container-fluid" id="s1">
+        <article class="articulo">
+            <h2 class="ttle">Top del mes</h2>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/tapa4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/kraft.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/tapa1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/tapa2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </article>
+        <article class="articulo"> <!-- seccion de  mas escuchados del verano -->
+            <h2 class="ttle">lo mas escuchado del verano</h2>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/tapa3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/tapa5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/tapa6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="assets/tapa7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="container-fluid" id="s3">
+            <div class="container-fluid">
+            <h2 class="ttle">recomendacion de la semana</h2> <!-- seccion de  recomendados -->
+            <img class="img-fluid" src="assets/tapa8.jpg" alt="tapa de disco">
+            <img class="img-fluid" src="assets/tapa5.jpg" alt="tapa de disco">
+            <img class="img-fluid" src="assets/tapa1.jpg" alt="tapa de disco">
+            <img class="img-fluid" src="assets/tapa9.jpg" alt="tapa de disco">
+            <img class="img-fluid" src="assets/tapa10.jpg" alt="tapa de disco">
+            <img class="img-fluid" src="assets/tapa11.jpg" alt="tapa de disco">
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content"></div>
+        <h3>VODKA.io</h3>
+        <img id="logo-footer" src="assets/klipartz.com.png" alt="logo">
+        <p class="footer-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates quas quidem atque quia recusandae quo, voluptate commodi, molestiae perspiciatis alias facere natus, saepe beatae magni ullam eos quaerat cupiditate! Eveniet.</p>
+        <ul class="socials">
+            <li><a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATtJREFUSEu1lY0RwiAMhdNJ1EnUSdRJ1EnUSdRJdBT7esA9aALhznLn0Qrke/lpGGThMSxsXzyAnYhsRQQzft9xfoX5HZ5NnTXAWkRuwWjNUQD3ATjbZwHO485LR/gAuYvItTyjAbzGYRRe8oCoDFICcOBTUQ6jMAC1cbAgrJ84LyXg2Yj5Rol16TEg2DcNBhxDUi0HoBrq4oC3B6ouPoeko9IyQCv2HN+WmLSXPUBJ4qA1oD7GviUG6uFF5gGSW1YFw3oAKQ/sgQbIEma4ZhXGZJsB2kYPQBOWCoIBWlxjG4AYPHMFxWftu1EBaGTw4h9JTvnq+dC8SU4VVOYA77VW4QWkj0wD4D+rxj2AZrOL8dcgLQCvpzz2XDgWYNZBuUo8V2Zsanw9oqWsxq75sG6yCPEAKpXbXloc8AOPHlEZbVZaMAAAAABJRU5ErkJggg=="/></a></li>
+            <li><a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQ5JREFUSEvlldENwjAMRK+bwCTAJMAkwCTAJLAJbAJ6VYyS1EmTj35hCVFI4rPvLu6ghWNYOL/+F2Ar6SRpFSi+SbqE3/vwPC7lFD0kHSW9K9ocJF2ddc4AyHkAXYBPSG4VeTjsKQUgT0n38J10APorOnkOG+NuStXHgDtLXqIIfi1IzoeKjAKPHttP51D0i1wDKozF670mVYCcot7k7E8EbqGoF2SdOzCniC6wqvm7F2AyGbxRgchcFvToiQk9HkX812LFHBiHQc8kSsMOJ3EPWiPxfs2m8Ro6QNUckEuNJfI6MIHpYk6HYuUeQI+DmDdzQ3HE8GyKizbBqrFd40FWm7aJbv/7Rmu17/Iv/S/ZejIZnal+BAAAAABJRU5ErkJggg=="/></a></li>
+            <li><a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANNJREFUSEvtldENwjAMRK+bwCYwCTAJbAJMQjeBTSCvqqUAARtIJD5qqWoUOXf2xXY6NbauMb4mAlfhR4lmklaSFpJYY/YvgV2yTdZ8x3S+t/2cANCTG5LvAMnGSHKCfYpg7Z8PeZDBEs+c4OzIEUIenchi/ikBEZHluzuxIIoEVydEsrUi2AXSGdTJJYoQGG6E6H8JtimNryTyqujnS6bJaLYaVuyDmgSHsZvvqojKQKYahpzDPCoNOy4RssiwAyMfeIC+HHY1In/CmF40V9bmEt0AOqQkGcbBlDsAAAAASUVORK5CYII="/></a></li>
+            <li><a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAW5JREFUSEvFlc1NBDEMhd82wRWoBLhwpwAEVAKIQoAyOAGV8HPhTAWwH/IbWRPPbFZotJFWq1Ecv5/YzkoLr9XC+bUzgANJF5KO4zcl9D02XiTdSvL3EF8puJR0HxEc4PDcggxEiH0IoEkAgt8i6ckW98O554i/yqTGCmCOgsNKbgF4Hoy/JZ1V5MYAsEdqxR7g/bUNsH0NO04lPUn6jD2rGM6PAX7iIDK9SIgyfM4LIneSviTtrVU/hk3E48Df6gGAFclvwg5XGN+ADMmCCEqHvJsAXFFOnhV4Dztcab7DWYCcbO7SXXFVfDfAdVgzVVXc2b8A8J47qCwyOAVBg7G6LCLYVeQK4t9dmi8Z73NJbw0Aq7kyJXmePxsBmkYJ6Z43R5HwI9mSK6tp1GpU4PuYWc9YclVli5tGc5DHRTN+J5CyjbkvygfHDZRnfc+4JiZXVDkq8vyhDO39HIDfDGZR83bs7MnsudSumMUV/AIe7GgZglVbgwAAAABJRU5ErkJggg=="/></a></li>
+            <li><a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOZJREFUSEvtleEJwkAMhV830U10EnUSdRJ1Et1EN1E/aSSGO9JiK/5ooJRCLl/yXo42GjmaketrAqQKe4kWks6SbpKOkvbp6c+EtaRDPO8B12fhmTsDZNMRQmEAFjQ558MD7oViJC7brkosGqI408d41c4A5NQkM0lqQ3YGWIGd8wWvSl17WG+ATcPbezXYBB39fqelE7BFyJB1i0c8UbIUgOYnSduwgn6SS7tl5JDfywMzlQlWhQLe9K8A1hUgtofgAtK9xSAA2x70jjEYoLZJ/wGIXXgTszsQz+IRaz790TLlfiDRA3rfORnQjXZJAAAAAElFTkSuQmCC"/></a></li>
+        </ul>
+            
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
